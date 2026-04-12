@@ -1,4 +1,5 @@
 import logo from "@/assets/xprint-logo.png";
+import { InstagramIcon, FacebookIcon, WhatsAppIcon } from "./SocialIcons";
 
 const Footer = () => {
   return (
@@ -16,10 +17,22 @@ const Footer = () => {
         <div className="flex gap-12 font-body">
           <div className="space-y-2">
             <span className="text-[10px] font-bold text-muted-foreground uppercase">Follow Us</span>
-            <ul className="text-xs font-bold space-y-1 uppercase">
-              <li><a href="https://www.instagram.com/xprintdtf?igsh=MW01dWdxazJkdjExYQ==" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-press transition-colors">Instagram</a></li>
-              <li><a href="https://www.facebook.com/share/18FERRWzBB/" target="_blank" rel="noopener noreferrer" className="hover:text-magenta-press transition-colors">Facebook</a></li>
-              <li><a href="https://wa.me/917569864565" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-press transition-colors">WhatsApp</a></li>
+            <ul className="text-xs font-bold space-y-2">
+              <li>
+                <a href="https://www.instagram.com/xprintdtf?igsh=MW01dWdxazJkdjExYQ==" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                  <InstagramIcon size={16} /> <span className="uppercase">Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/share/18FERRWzBB/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                  <FacebookIcon size={16} /> <span className="uppercase">Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/917569864565" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                  <WhatsAppIcon size={16} /> <span className="uppercase">WhatsApp</span>
+                </a>
+              </li>
             </ul>
           </div>
           <div className="space-y-2">
