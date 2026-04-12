@@ -78,7 +78,7 @@ const Services = () => {
                 loading="lazy"
                 width={800}
                 height={600}
-                className="w-full h-48 lg:h-56 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                className="w-full h-48 lg:h-56 object-cover transition-all duration-500"
               />
             </div>
             <div className="p-8 lg:p-10 flex flex-col justify-between min-h-[320px]">

@@ -22,7 +22,7 @@ const Portfolio = () => {
               <img
                 src={spreadImg}
                 alt="XPrint portfolio - printed materials spread"
-                className="w-full aspect-[16/10] object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full aspect-[16/10] object-cover transition-all duration-700"
                 loading="lazy"
                 width={1200}
                 height={800}
@@ -44,7 +44,7 @@ const Portfolio = () => {
                 <img
                   src={tshirtImg}
                   alt="XPrint - custom printed t-shirts"
-                  className="w-full aspect-square object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  className="w-full aspect-square object-cover transition-all duration-700"
                   loading="lazy"
                   width={800}
                   height={800}
@@ -65,7 +65,7 @@ const Portfolio = () => {
               <img
                 src={apparelImg}
                 alt="Custom apparel - embroidered caps and printed polos"
-                className="w-full aspect-[4/3] object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full aspect-[4/3] object-cover transition-all duration-700"
                 loading="lazy"
                 width={800}
                 height={600}
@@ -82,7 +82,7 @@ const Portfolio = () => {
               <img
                 src={vinylImg}
                 alt="Vinyl stickers, decals and floor graphics"
-                className="w-full aspect-[4/3] object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full aspect-[4/3] object-cover transition-all duration-700"
                 loading="lazy"
                 width={800}
                 height={600}
@@ -99,7 +99,7 @@ const Portfolio = () => {
               <img
                 src={ecoImg}
                 alt="Eco-friendly printed jute bags and corporate gifts"
-                className="w-full aspect-[4/3] object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full aspect-[4/3] object-cover transition-all duration-700"
                 loading="lazy"
                 width={800}
                 height={600}
