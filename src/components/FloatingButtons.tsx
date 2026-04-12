@@ -12,6 +12,7 @@ const FloatingButtons = () => {
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
+        style={{ animation: "none" }}
         aria-label="Chat on WhatsApp"
         className="size-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
       >
