@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -14,10 +13,6 @@ const Contact = () => {
           </p>
         </div>
         <div className="space-y-3 font-body text-sm">
-          <div className="flex items-center gap-3">
-            <Mail size={16} />
-            <span>hello@xprint.studio</span>
-          </div>
           <a href="tel:+917569864565" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <Phone size={16} />
             <span>+91 7569864565</span>
