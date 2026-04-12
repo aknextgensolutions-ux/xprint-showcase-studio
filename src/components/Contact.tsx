@@ -18,10 +18,10 @@ const Contact = () => {
             <Mail size={16} />
             <span>hello@xprint.studio</span>
           </div>
-          <div className="flex items-center gap-3">
+          <a href="tel:+917569864565" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <Phone size={16} />
-            <span>+1 (555) 123-PRINT</span>
-          </div>
+            <span>+91 7569864565</span>
+          </a>
         </div>
       </div>
       <div className="bg-magenta-press p-12 lg:p-16 flex flex-col justify-between text-background">
@@ -33,11 +33,15 @@ const Contact = () => {
             <MapPin size={16} className="mt-1 shrink-0" />
             <div className="font-body">
               <p className="text-sm font-bold">XPrint Workshop</p>
-              <p className="text-sm opacity-80">42 Ink Avenue, Print District<br />New York, NY 10001</p>
+              <p className="text-sm opacity-80">
+                210, 2nd Floor, Rahmat Complex,<br />
+                X Road, Ameerpet, Hyderabad,<br />
+                Telangana 500038
+              </p>
             </div>
           </div>
           <p className="font-body text-xs uppercase tracking-widest opacity-70">
-            Mon–Fri / 8:00 AM – 6:00 PM
+            Mon–Sat / 10:00 AM – 7:00 PM
           </p>
         </div>
       </div>
