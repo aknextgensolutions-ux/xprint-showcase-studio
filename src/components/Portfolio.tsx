@@ -6,6 +6,20 @@ import ecoImg from "@/assets/portfolio-eco.jpg";
 import jerseysImg from "@/assets/portfolio-jerseys.jpg";
 import canvasImg from "@/assets/portfolio-canvas.jpg";
 import largeformatImg from "@/assets/portfolio-largeformat.jpg";
+import { buildWhatsAppUrl, WA_MESSAGES } from "@/lib/whatsapp";
+import { WhatsAppIcon } from "./SocialIcons";
+
+const WaLink = ({ work }: { work: string }) => (
+  <a
+    href={buildWhatsAppUrl(WA_MESSAGES.portfolio(work))}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-1.5 text-[11px] font-body font-bold uppercase tracking-widest text-[#25D366] hover:opacity-80 transition-opacity"
+  >
+    <WhatsAppIcon size={12} />
+    Order Similar
+  </a>
+);
 
 const Portfolio = () => {
   return (
