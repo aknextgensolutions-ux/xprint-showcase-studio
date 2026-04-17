@@ -50,9 +50,18 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <p className="font-body text-xs uppercase tracking-widest opacity-70">
+          <p className="font-body text-xs uppercase tracking-widest opacity-70 mb-4">
             Open 7 Days / 10:00 AM – 9:00 PM
           </p>
+          <a
+            href={buildWhatsAppUrl(WA_MESSAGES.contact)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-background text-foreground px-5 py-2.5 text-xs font-body font-bold uppercase tracking-widest hover:opacity-90 transition-opacity"
+          >
+            <WhatsAppIcon size={14} />
+            Message Us Now
+          </a>
         </div>
       </div>
     </section>
